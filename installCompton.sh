@@ -4,3 +4,4 @@ cd compton/
 make
 make docs
 make install
+rm -R ~/compton/

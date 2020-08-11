@@ -1,0 +1,78 @@
+fileviewer *.pdf /.config/vifm/vifmrc
+echo   vifmimg pdfpreview %px %py %pw %ph %c >> echo /.config/vifm/vifmrc
+        \ %pc /.config/vifm/vifmrc
+echo   vifmimg clear >> echo /.config/vifm/vifmrc
+ /.config/vifm/vifmrc
+echo  fileviewer *.epub >> echo /.config/vifm/vifmrc
+        \ vifmimg epubpreview %px %py %pw %ph %c /.config/vifm/vifmrc
+echo   %pc >> echo /.config/vifm/vifmrc
+        \ vifmimg clear /.config/vifm/vifmrc
+echo  >> echo /.config/vifm/vifmrc
+    fileviewer *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob, /.config/vifm/vifmrc
+echo  *.fl[icv],*.m2v,*.mov,*.webm,*.ts,*.mts,*.m4v,*.r[am],*.qt,*.divx, >> echo /.config/vifm/vifmrc
+        \ vifmimg videopreview %px %py %pw %ph %c /.config/vifm/vifmrc
+echo   %pc >> echo /.config/vifm/vifmrc
+        \ vifmimg clear /.config/vifm/vifmrc
+echo  >> echo /.config/vifm/vifmrc
+    fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.xpm /.config/vifm/vifmrc
+echo   vifmimg draw %px %py %pw %ph %c >> echo /.config/vifm/vifmrc
+        \ %pc /.config/vifm/vifmrc
+echo   vifmimg clear >> echo /.config/vifm/vifmrc
+ /.config/vifm/vifmrc
+echo  fileviewer *.gif >> echo /.config/vifm/vifmrc
+        \ vifmimg gifpreview %px %py %pw %ph %c /.config/vifm/vifmrc
+echo   %pc >> echo /.config/vifm/vifmrc
+        \ vifmimg clear /.config/vifm/vifmrc
+echo  >> echo /.config/vifm/vifmrc
+    fileviewer *.ico /.config/vifm/vifmrc
+echo   vifmimg magickpreview %px %py %pw %ph %c >> echo /.config/vifm/vifmrc
+        \ %pc /.config/vifm/vifmrc
+echo   vifmimg clear >> echo /.config/vifm/vifmrc
+        \ vifmimg audiopreview %px %py %pw %ph %c /.config/vifm/vifmrc
+echo   %pc >> echo /.config/vifm/vifmrc
+        \ vifmimg clear /.config/vifm/vifmrc
+echo   >> echo /.config/vifm/vifmrc
+    fileviewer <font/*> /.config/vifm/vifmrc
+echo   vifmimg fontpreview %px %py %pw %ph %c >> echo /.config/vifm/vifmrc
+        \ %pc /.config/vifm/vifmrc
+echo   vifmimg clear >> echo /.config/vifm/vifmrc
+    fileviewer *.pdf /.config/vifm/vifmrc
+echo   vifmimg pdfpreview %px %py %pw %ph %c >> echo /.config/vifm/vifmrc
+        \ %pc /.config/vifm/vifmrc
+echo   vifmimg clear >> echo /.config/vifm/vifmrc
+ /.config/vifm/vifmrc
+echo  fileviewer *.epub >> echo /.config/vifm/vifmrc
+        \ vifmimg epubpreview %px %py %pw %ph %c /.config/vifm/vifmrc
+echo   %pc >> echo /.config/vifm/vifmrc
+        \ vifmimg clear /.config/vifm/vifmrc
+echo  >> echo /.config/vifm/vifmrc
+    fileviewer *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob, /.config/vifm/vifmrc
+echo  *.fl[icv],*.m2v,*.mov,*.webm,*.ts,*.mts,*.m4v,*.r[am],*.qt,*.divx, >> echo /.config/vifm/vifmrc
+        \ vifmimg videopreview %px %py %pw %ph %c /.config/vifm/vifmrc
+echo   %pc >> echo /.config/vifm/vifmrc
+        \ vifmimg clear /.config/vifm/vifmrc
+echo  >> echo /.config/vifm/vifmrc
+    fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.xpm /.config/vifm/vifmrc
+echo   vifmimg draw %px %py %pw %ph %c >> echo /.config/vifm/vifmrc
+        \ %pc /.config/vifm/vifmrc
+echo   vifmimg clear >> echo /.config/vifm/vifmrc
+ /.config/vifm/vifmrc
+echo  fileviewer *.gif >> echo /.config/vifm/vifmrc
+        \ vifmimg gifpreview %px %py %pw %ph %c /.config/vifm/vifmrc
+echo   %pc >> echo /.config/vifm/vifmrc
+        \ vifmimg clear /.config/vifm/vifmrc
+echo  >> echo /.config/vifm/vifmrc
+    fileviewer *.ico /.config/vifm/vifmrc
+echo   vifmimg magickpreview %px %py %pw %ph %c >> echo /.config/vifm/vifmrc
+        \ %pc /.config/vifm/vifmrc
+echo   vifmimg clear >> echo /.config/vifm/vifmrc
+         /.config/vifm/vifmrc
+echo  fileviewer *.mp3 >> echo /.config/vifm/vifmrc
+        \ vifmimg audiopreview %px %py %pw %ph %c /.config/vifm/vifmrc
+echo   %pc >> echo /.config/vifm/vifmrc
+        \ vifmimg clear /.config/vifm/vifmrc
+echo   >> echo /.config/vifm/vifmrc
+    fileviewer *.ttf *.otf /.config/vifm/vifmrc
+echo   vifmimg fontpreview %px %py %pw %ph %c >> echo /.config/vifm/vifmrc
+        \ %pc /.config/vifm/vifmrc
+echo   vifmimg clear >> echo /.config/vifm/vifmrc
