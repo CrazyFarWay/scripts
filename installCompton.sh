@@ -1,7 +1,2 @@
 cd ~
-git clone https://github.com/chjj/compton.git
-cd compton/
-make
-make docs
-make install
-rm -R ~/compton/
+yay -S compton-tryone-git
