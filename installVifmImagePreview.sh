@@ -187,11 +187,11 @@ echo '' >> vifmrun
 echo 'vifm "$@"' >> vifmrun
 echo 'cleanup' >> vifmrun
 
-cp vifmimg /usr/bin
-cp vifmrun /usr/bin
+cp vifmimg /home/crazyfarway/.config/vifm/scripts/
+cp vifmrun /home/crazyfarway/.config/vifm/scripts/
 
-chmod +x /usr/bin/vifmimg
-chmod +x /usr/bin/vifmrun
+chmod +x /home/crazyfarway/.config/vifm/scripts/
+chmod +x /home/crazyfarway/.config/vifm/scripts/
 
 echo '    fileviewer *.pdf' >> echo '/.config/vifm/vifmrc'
 echo '        \ vifmimg pdfpreview %px %py %pw %ph %c' >> echo '/.config/vifm/vifmrc'
